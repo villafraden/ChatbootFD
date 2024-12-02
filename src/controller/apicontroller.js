@@ -5,7 +5,7 @@ const verificar=(req, res)=>{
 
 try {
 
-    var tokenserviclientefdses = "SERVICLIENTEFDSESAPIMETA"
+    var tokenserviclientefdses = "EAAIBtRaQvw4BO7bEuQMCe8zGVw9ZAmcGwTRKZAbIwxksmZCqMp1F613acNC0LShV5Bc5tXjcsboR6nhwC6n3NAcBvoDDnQYKONxTPeSnblQkiZCx0PAjTx6enAW1nygN7RfM2ZAom03NJGSuhFJ56R0RYoHIhZB5h4jmPrle09tKdnDAMR5h4Upa4LZCeb8NQSuesW9pcCgngXbwLQhvaUJHOgZAdCEZD"
     var token = req.query["hub.verify_token"];
     var challenge = req.query["hub.challenge"];
 
